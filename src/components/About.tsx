@@ -41,7 +41,7 @@ export default function About({ isDark }: Props) {
             </div>
           </div>
           <div className="reveal-right">
-            <img src="src/assets/sut1.png" alt="Developer working" className="w-full h-100 object-cover rounded-2xl" style={{boxShadow: '0 0 60px rgba(34,211,238,0.15)'}} />
+            <img src="/sut1.png" alt="Developer working" className="w-full h-100 object-cover rounded-2xl" style={{boxShadow: '0 0 60px rgba(34,211,238,0.15)'}} />
           </div>
         </div>
       </div>

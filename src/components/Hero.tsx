@@ -63,7 +63,7 @@ export default function Hero({ isDark }: Props) {
                 <div className="relative w-full h-full flex flex-col items-center justify-center p-8">
                   <div className="w-32 h-32 rounded-full flex items-center justify-center mb-4" style={{background: 'linear-gradient(135deg, #22d3ee 0%, #0ea5e9 50%, #0284c7 100%)', boxShadow: '0 0 40px rgba(34,211,238,0.5)'}}>
                     {/* <span className="text-5xl font-black text-white font-mono">KS</span> */}
-                    <img src="src/assets/sut1.png" alt="Developer working" className="w-full h-100 object-cover rounded-full" style={{boxShadow: '0 0 60px rgba(34,211,238,0.15)'}} />
+                    <img src="/sut1.png" alt="Developer working" className="w-full h-100 object-cover rounded-full" style={{boxShadow: '0 0 60px rgba(34,211,238,0.15)'}} />
 
                   </div>
                   <p className={`text-center font-bold text-lg ${isDark ? 'text-white' : 'text-slate-800'}`}>Khamiar</p>

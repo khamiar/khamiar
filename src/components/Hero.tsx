@@ -42,7 +42,7 @@ export default function Hero({ isDark }: Props) {
               <button onClick={() => handleScroll('contact')} className="glow-btn inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl text-base font-semibold text-white transition-all duration-300 hover:scale-105 hover:shadow-xl" style={{background: 'linear-gradient(135deg, #22d3ee, #0ea5e9)', boxShadow: '0 4px 24px rgba(34,211,238,0.4)'}}>
                 <MessageSquare size={18} /> Hire Me
               </button>
-              <a href="/cv.pdf" 
+              <a href="/CV.pdf" 
                 download = 'Khamiar_Mshimba_Seif_CV.pdf'
                 className={`inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl text-base font-semibold transition-all duration-300 hover:scale-105 border-2 ${isDark ? 'border-cyan-500/40 text-cyan-400 hover:bg-cyan-500/10 hover:border-cyan-400' : 'border-cyan-500/40 text-cyan-600 hover:bg-cyan-50 hover:border-cyan-500'}`}>
                 <Download size={18} /> Download CV

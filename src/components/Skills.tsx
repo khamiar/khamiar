@@ -5,14 +5,14 @@ interface Props {
 }
 
 const skills = [
-  { name: 'Java', level: 50 },
-  { name: 'Spring Boot', level: 65 },
-  { name: 'Angular', level: 85 },
-  { name: 'React', level: 55},
-  { name: 'Flutter', level: 65 },
+  { name: 'Java', level: 20 },
+  { name: 'Spring Boot', level: 15 },
+  { name: 'Angular', level: 50 },
+  { name: 'React', level: 65},
+  { name: 'Flutter', level: 45 },
   { name: 'JavaScript', level: 75 },
   { name: 'MySQL', level: 90 },
-  { name: 'PostgreSQL', level: 30 },
+  { name: 'PostgreSQL', level: 50 },
   { name: 'GitHub', level: 90 },
 ];
 
